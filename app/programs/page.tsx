@@ -64,11 +64,11 @@ export default function ProgramsPage() {
               <div key={index} className="bg-blue-50 rounded-lg p-6 shadow-lg">
                 <h3 className="text-2xl font-bold text-black mb-2">{program.title}</h3>
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="flex items-center gap-1 text-orange-600">
+                  <div className="flex items-center gap-1 text-kindergarten-pink2">
                     <Users className="w-4 h-4" />
                     <span className="text-sm font-medium">{program.age}</span>
                   </div>
-                  <div className="flex items-center gap-1 text-orange-600">
+                  <div className="flex items-center gap-1 text-kindergarten-pink2">
                     <Clock className="w-4 h-4" />
                     <span className="text-sm font-medium">{program.time}</span>
                   </div>
@@ -77,12 +77,12 @@ export default function ProgramsPage() {
                 <ul className="space-y-2 mb-6">
                   {program.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-black">
-                      <div className="w-2 h-2 bg-orange-400 rounded-full"></div>
+                      <div className="w-2 h-2 bg-kindergarten-pink2 rounded-full"></div>
                       {feature}
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-orange-400 hover:bg-orange-500 text-white">Mehr erfahren</Button>
+                <Button className="w-full bg-kindergarten-green2 text-white">Mehr erfahren</Button>
               </div>
             ))}
           </div>
@@ -96,7 +96,7 @@ export default function ProgramsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {activities.map((activity, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-kindergarten-green2 rounded-full flex items-center justify-center mx-auto mb-4">
                   <activity.icon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-black mb-3">{activity.title}</h3>

@@ -1,78 +1,72 @@
 import { Button } from "@/components/ui/button"
-import { Play, Heart, Star, Users } from "lucide-react"
+import { ArrowRight, Sparkles, Heart, Star } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full">
-        <video autoPlay muted loop playsInline className="w-full h-full object-cover">
-          <source
-            src="/placeholder.mp4?height=1080&width=1920&query=happy children playing in kindergarten classroom colorful toys learning activities bright natural lighting joyful atmosphere"
-            type="video/mp4"
-          />
-        </video>
-        <div className="absolute inset-0 bg-black/30"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/10 to-orange-400/15"></div>
-      </div>
-
-      {/* Floating Elements */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-32 lg:pt-32">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-white/30 rounded-full animate-pulse"></div>
-        <div
-          className="absolute top-1/3 right-1/4 w-2 h-2 bg-orange-300/40 rounded-full animate-bounce"
-          style={{ animationDelay: "1s" }}
-        ></div>
-        <div
-          className="absolute bottom-1/3 left-1/3 w-4 h-4 bg-orange-300/30 rounded-full animate-pulse"
-          style={{ animationDelay: "2s" }}
-        ></div>
-        <div
-          className="absolute bottom-1/4 right-1/3 w-2 h-2 bg-white/40 rounded-full animate-bounce"
-          style={{ animationDelay: "0.5s" }}
-        ></div>
+        <div className="absolute top-20 right-20 w-32 h-32 opacity-20">
+          <Star className="w-full h-full text-kindergarten-orange animate-pulse" />
+        </div>
+        <div className="absolute top-1/3 right-1/4 w-20 h-20 opacity-15">
+          <Sparkles
+            className="w-full h-full text-kindergarten-baby-blue animate-pulse"
+            style={{ animationDelay: "1s" }}
+          />
+        </div>
       </div>
 
-      <div className="container mx-auto px-4 text-center relative z-10">
-        <div className="max-w-5xl mx-auto">
-          <div className="mb-6">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-4">
-              <Heart className="w-4 h-4 text-orange-400" />
-              <span className="text-white text-sm font-medium">Seit 2025 in Berlin</span>
-            </div>
-          </div>
-
-          <h1 className="text-5xl md:text-7xl font-bold text-balance mb-6 text-white leading-tight">
-            Willkommen bei der
-            <br />
-            <span className="text-orange-400 relative">
-              Kita Wasserfee
-              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-orange-400/30 rounded-full"></div>
-            </span>
+      <div className="max-w-6xl container mx-auto px-4 relative z-10 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-kindergarten-pink2 leading-tight">
+            Wo kleine Träume
+            <span className="block text-black opacity-70">groß werden</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-white/90 mb-8 text-pretty max-w-3xl mx-auto leading-relaxed">
-            Ein magischer Ort der Freude, des Lernens und des Wachstums für Ihre Kleinen im Herzen von Berlin
+          <p className="text-xl md:text-2xl mb-8 text-kindergarten-green2 leading-relaxed max-w-2xl">
+            Ein liebevoller Ort für Ihr Kind zum Lernen, Spielen und Wachsen. Wir fördern Kreativität, Neugier und
+            soziale Entwicklung in einer sicheren Umgebung.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button
+              asChild
               size="lg"
-              className="text-lg px-10 py-6 hover:scale-105 transition-all duration-300 bg-orange-400 hover:bg-orange-500 text-white shadow-2xl hover:shadow-orange-500/25 rounded-full"
+              className="bg-kindergarten-green2 text-white text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all"
             >
-              <Play className="w-5 h-5 mr-2" />
-              Jetzt Anmelden
+              <Link href="/contact">
+                Kontakt aufnehmen
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
             </Button>
 
-            <div className="flex items-center gap-6 text-white/80">
-              <div className="flex items-center gap-2">
-                <Users className="w-5 h-5 text-orange-300" />
-                <span className="text-sm">120+ glückliche Kinder</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Star className="w-5 h-5 text-orange-300" />
-                <span className="text-sm">15+ Jahre Erfahrung</span>
-              </div>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="text-black text-lg px-8 py-6 rounded-full transition-all bg-kindergarten-pink opacity-90"
+            >
+              <Link href="/programs">Unsere Programme</Link>
+            </Button>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl">
+            <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
+              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">1-6</div>
+              <div className="text-sm text-gray-600">Jahre Alt</div>
+            </div>
+            <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
+              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">8-12</div>
+              <div className="text-sm text-gray-600">Kinder pro Gruppe</div>
+            </div>
+            <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
+              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">7-18</div>
+              <div className="text-sm text-gray-600">Uhr Geöffnet</div>
+            </div>
+            <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
+              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">100%</div>
+              <div className="text-sm text-gray-600">Qualifizierte Erzieher</div>
             </div>
           </div>
         </div>

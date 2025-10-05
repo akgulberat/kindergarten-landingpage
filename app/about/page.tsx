@@ -53,7 +53,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-black text-center mb-12">Unsere Grundwerte</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-kindergarten-pink2 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Liebe & Fürsorge</h3>
@@ -62,21 +62,21 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-kindergarten-pink2 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Gemeinschaft</h3>
               <p className="text-black">Aufbau starker Beziehungen zwischen Kindern, Familien und Erziehern.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-kindergarten-pink2 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Exzellenz</h3>
               <p className="text-black">Aufrechterhaltung höchster Standards in der frühkindlichen Bildung.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-kindergarten-pink2 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-black mb-3">Lernen</h3>

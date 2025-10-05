@@ -32,25 +32,41 @@ export function ContactSection() {
               </div>
             </Card>
 
-            <Card className="p-8">
-              <h3 className="text-2xl font-semibold mb-4 text-black">🎒 Anmeldung</h3>
-              <div className="space-y-4">
-                <p className="text-gray-600">
-                  Wir nehmen jetzt Anmeldungen für das kommende Schuljahr entgegen. Begrenzte Plätze verfügbar!
-                </p>
-                <div className="space-y-3">
-                  <Button className="w-full bg-orange-400 hover:bg-orange-500 text-white" size="lg">
-                    Online anmelden
-                  </Button>
-                  <Button
-                    variant="outline"
-                    className="w-full bg-transparent text-black border-black hover:bg-gray-50"
-                    size="lg"
-                  >
-                    Broschüre herunterladen
-                  </Button>
+            <Card className="p-8 bg-gradient-to-br from-orange-50 to-blue-50">
+              <h3 className="text-2xl font-semibold mb-6 text-black">✨ Warum Kita Wasserfee?</h3>
+              <div className="space-y-4 text-left">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🎨</span>
+                  <div>
+                    <p className="font-semibold text-black">Kreative Förderung</p>
+                    <p className="text-gray-600 text-sm">Kunst, Musik und spielerisches Lernen</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">👥</span>
+                  <div>
+                    <p className="font-semibold text-black">Kleine Gruppen</p>
+                    <p className="text-gray-600 text-sm">Individuelle Betreuung für jedes Kind</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🌱</span>
+                  <div>
+                    <p className="font-semibold text-black">Ganzheitliche Entwicklung</p>
+                    <p className="text-gray-600 text-sm">Soziale, emotionale und kognitive Förderung</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">🏡</span>
+                  <div>
+                    <p className="font-semibold text-black">Familiäre Atmosphäre</p>
+                    <p className="text-gray-600 text-sm">Ein zweites Zuhause für Ihr Kind</p>
+                  </div>
                 </div>
               </div>
+              <Button className="w-full mt-6 bg-kindergarten-green2 text-white" size="lg" asChild>
+                <a href="/contact">Jetzt Kontakt aufnehmen</a>
+              </Button>
             </Card>
           </div>
         </div>

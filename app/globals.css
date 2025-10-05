@@ -6,19 +6,28 @@
 :root {
   /* Updated color tokens to use blue and orange kindergarten theme */
   --background: oklch(1 0 0);
-  --foreground: oklch(0 0 0); /* Changed foreground to pure black for all text */
+  --foreground: oklch(0 0 0);
+  /* Changed foreground to pure black for all text */
   --card: oklch(0.97 0.005 258.34);
-  --card-foreground: oklch(0 0 0); /* Changed card foreground to pure black */
+  --card-foreground: oklch(0 0 0);
+  /* Changed card foreground to pure black */
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0 0 0); /* Changed popover foreground to pure black */
-  --primary: oklch(0.45 0.15 220); /* Blue #067bc2 */
+  --popover-foreground: oklch(0 0 0);
+  /* Changed popover foreground to pure black */
+  --primary: oklch(0.45 0.15 220);
+  /* Blue #067bc2 */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.75 0.12 60); /* Orange #ff9229 */
-  --secondary-foreground: oklch(0 0 0); /* Changed secondary foreground to pure black */
+  --secondary: oklch(0.75 0.12 60);
+  /* Orange #ff9229 */
+  --secondary-foreground: oklch(0 0 0);
+  /* Changed secondary foreground to pure black */
   --muted: oklch(0.97 0.005 258.34);
-  --muted-foreground: oklch(0 0 0); /* Changed muted foreground to pure black */
-  --accent: oklch(0.8 0.1 200); /* Baby blue #8ed1fc */
-  --accent-foreground: oklch(0 0 0); /* Changed accent foreground to pure black */
+  --muted-foreground: oklch(0 0 0);
+  /* Changed muted foreground to pure black */
+  --accent: oklch(0.8 0.1 200);
+  /* Baby blue #8ed1fc */
+  --accent-foreground: oklch(0 0 0);
+  /* Changed accent foreground to pure black */
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.92 0.005 258.34);
@@ -27,17 +36,24 @@
   --chart-1: oklch(0.45 0.15 220);
   --chart-2: oklch(0.75 0.12 60);
   --chart-3: oklch(0.8 0.1 200);
-  --chart-4: oklch(0.85 0.1 50); /* Orange2 #ffb400 */
+  --chart-4: oklch(0.85 0.1 50);
+  /* Orange2 #ffb400 */
   --chart-5: oklch(0.6 0.2 250);
   --radius: 0.5rem;
   --sidebar: oklch(0.98 0.002 258.34);
-  --sidebar-foreground: oklch(0 0 0); /* Changed sidebar foreground to pure black */
+  --sidebar-foreground: oklch(0 0 0);
+  /* Changed sidebar foreground to pure black */
   --sidebar-primary: oklch(0.45 0.15 220);
   --sidebar-primary-foreground: oklch(1 0 0);
   --sidebar-accent: oklch(0.75 0.12 60);
-  --sidebar-accent-foreground: oklch(0 0 0); /* Changed sidebar accent foreground to pure black */
+  --sidebar-accent-foreground: oklch(0 0 0);
+  /* Changed sidebar accent foreground to pure black */
   --sidebar-border: oklch(0.92 0.005 258.34);
   --sidebar-ring: oklch(0.45 0.15 220 / 0.5);
+  --font-quicksand: "Quicksand", sans-serif;
+  /* Define Quicksand font */
+  --font-nunito: "Nunito", sans-serif;
+  /* Define Nunito font */
 }
 
 .dark {
@@ -79,28 +95,71 @@
 .bg-kindergarten-blue {
   background-color: #067bc2;
 }
+
+.bg-kindergarten-green2 {
+  background-color: #71B0AA;
+}
+
+.text-kindergarten-green2 {
+  color: #71B0AA;
+}
+
+.text-kindergarten-green3 {
+  color: #569C96;
+}
+
 .bg-kindergarten-orange {
   background-color: #ff9229;
 }
+
 .bg-kindergarten-orange2 {
   background-color: #ffb400;
 }
+
 .bg-kindergarten-baby-blue {
   background-color: #8ed1fc;
 }
+
+.bg-kindergarten-pink {
+  background-color: #FFD5D7;
+}
+
+.text-kindergarten-pink {
+  color: #FFD5D7;
+}
+
+.bg-kindergarten-pink2 {
+  background-color: #FFA9AC;
+}
+
+.text-kindergarten-pink2 {
+  color: #FFA9AC;
+}
+
+.bg-kindergarten-green {
+  background-color: #C4EEE4;
+}
+
+.text-kindergarten-green {
+  color: #C4EEE4;
+}
+
 .text-kindergarten-orange {
   color: #ff9229;
 }
+
 .text-kindergarten-orange2 {
   color: #ffb400;
 }
+
 .text-black {
   color: #000000;
 }
 
 @theme inline {
-  --font-sans: var(--font-poppins); /* Updated font variables to use Poppins */
-  --font-mono: var(--font-poppins); /* Updated font variables to use Poppins */
+  /* Quicksand yerine Nunito font variable'ını kullanıyoruz */
+  --font-sans: var(--font-nunito);
+  --font-mono: var(--font-nunito);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -143,6 +202,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

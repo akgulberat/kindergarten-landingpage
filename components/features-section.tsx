@@ -62,8 +62,8 @@ export function FeaturesSection() {
             <div className="grid gap-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-kindergarten-orange/20 rounded-lg flex items-center justify-center">
-                    <feature.icon className="w-6 h-6 text-kindergarten-orange" />
+                  <div className="flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center">
+                    <feature.icon className="w-6 h-6 text-kindergarten-pink2" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-black mb-2">{feature.title}</h3>

@@ -1,48 +1,67 @@
 import { Card } from "@/components/ui/card"
+import { Heart, Users, Sparkles, Shield } from "lucide-react"
 
 export function TestimonialsSection() {
-  const testimonials = [
+  const values = [
     {
-      name: "Anna Müller",
-      text: "Die Kita Wasserfee war fantastisch für unsere Tochter Emma. Sie hat so viel gelernt und wunderbare Freunde gefunden. Die Erzieher sind fürsorglich und professionell.",
-      child: "Emma, 5 Jahre",
+      icon: Heart,
+      title: "Liebevolle Betreuung",
+      description:
+        "Jedes Kind wird mit Wärme und Fürsorge behandelt. Wir schaffen eine sichere Umgebung, in der sich Kinder geborgen fühlen und ihre Persönlichkeit entfalten können.",
     },
     {
-      name: "Thomas Schmidt",
-      text: "Wir könnten nicht glücklicher mit unserer Wahl sein. Das Programm ist ausgewogen und unser Sohn liebt es, jeden Tag in die Kita zu gehen. Sehr empfehlenswert!",
-      child: "Lucas, 4 Jahre",
+      icon: Users,
+      title: "Kleine Gruppen",
+      description:
+        "Mit maximal 15 Kindern pro Gruppe garantieren wir individuelle Aufmerksamkeit und fördern soziale Kompetenzen in einer familiären Atmosphäre.",
     },
     {
-      name: "Maria Weber",
-      text: "Das Team der Kita Wasserfee kümmert sich wirklich um die Entwicklung jedes Kindes. Meine Tochter ist so viel selbstbewusster geworden und hat ihre sozialen Fähigkeiten entwickelt.",
-      child: "Sofia, 5 Jahre",
+      icon: Sparkles,
+      title: "Kreative Förderung",
+      description:
+        "Durch Musik, Kunst und Bewegung unterstützen wir die kreative Entwicklung. Jedes Kind kann seine Talente entdecken und seine Fantasie ausleben.",
+    },
+    {
+      icon: Shield,
+      title: "Vertrauen & Sicherheit",
+      description:
+        "Transparente Kommunikation mit Eltern und höchste Sicherheitsstandards schaffen Vertrauen. Ihr Kind ist bei uns in besten Händen.",
     },
   ]
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-to-b from-white to-kindergarten-baby-blue/20">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance">Was Eltern sagen</h2>
-            <p className="text-xl text-muted-foreground text-pretty">
-              Hören Sie von Familien, die uns die frühkindliche Bildung ihrer Kinder anvertrauen
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance">Unsere Werte</h2>
+            <p className="text-xl text-gray-600 text-pretty">
+              Was uns bei Kita Wasserfee besonders macht und wofür wir stehen
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
-                <div className="mb-4">
-                  <div className="flex text-accent text-xl mb-3">⭐⭐⭐⭐⭐</div>
-                  <p className="text-muted-foreground mb-4 italic">"{testimonial.text}"</p>
-                </div>
-                <div className="border-t pt-4">
-                  <p className="font-semibold text-foreground">{testimonial.name}</p>
-                  <p className="text-sm text-muted-foreground">Elternteil von {testimonial.child}</p>
-                </div>
-              </Card>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {values.map((value, index) => {
+              const Icon = value.icon
+              return (
+                <Card
+                  key={index}
+                  className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent hover:border-kindergarten-orange/20"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-shrink-0">
+                      <div className="w-14 h-14 rounded-full bg-kindergarten-orange/10 flex items-center justify-center">
+                        <Icon className="w-7 h-7 text-kindergarten-pink2" />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold mb-3 text-black">{value.title}</h3>
+                      <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                    </div>
+                  </div>
+                </Card>
+              )
+            })}
           </div>
         </div>
       </div>

@@ -148,25 +148,6 @@ export default function NewsPage() {
               </Card>
             ))}
           </div>
-
-          {/* Newsletter Signup */}
-          <div className="mt-16 bg-gradient-to-r from-blue-50 to-orange-50 rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold text-black mb-4">Newsletter abonnieren</h3>
-            <p className="text-black mb-6 max-w-2xl mx-auto">
-              Verpassen Sie keine wichtigen Neuigkeiten! Melden Sie sich für unseren Newsletter an und erhalten Sie
-              regelmäßige Updates über Veranstaltungen und wichtige Informationen.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Ihre E-Mail-Adresse"
-                className="flex-1 px-4 py-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
-              />
-              <button className="px-6 py-3 bg-orange-400 hover:bg-orange-500 text-white rounded-lg font-medium transition-colors">
-                Anmelden
-              </button>
-            </div>
-          </div>
         </div>
       </section>
 

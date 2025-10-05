@@ -29,7 +29,7 @@ export function CTABanner({
         <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto text-pretty">{description}</p>
         <Button
           size="lg"
-          className="bg-kindergarten-orange hover:bg-kindergarten-orange2 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+          className="bg-kindergarten-green2 text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
           asChild
         >
           <a href={buttonHref}>{buttonText}</a>

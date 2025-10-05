@@ -2,16 +2,13 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="bg-kindergarten-baby-blue text-black">
+    <footer className="bg-kindergarten-pink text-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-orange-400 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">🧚</span>
-              </div>
-              <span className="font-bold text-xl">Kita Wasserfee</span>
+              <span className="text-lg font-semibold">Kita Wasserfee</span>
             </div>
             <p className="text-black text-sm leading-relaxed">
               Wir fördern junge Köpfe durch spielerisches Lernen und kreative Entdeckungen. Hier wächst jedes Kind zu
@@ -34,13 +31,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/teachers" className="text-black hover:text-gray-700 transition-colors">
-                  Unsere Erzieher
+                <Link href="/daily-routine" className="text-black hover:text-gray-700 transition-colors">
+                  Tagesablauf
                 </Link>
               </li>
               <li>
-                <Link href="/news" className="text-black hover:text-gray-700 transition-colors">
-                  Neuigkeiten
+                <Link href="/services" className="text-black hover:text-gray-700 transition-colors">
+                  Leistungen
                 </Link>
               </li>
               <li>
