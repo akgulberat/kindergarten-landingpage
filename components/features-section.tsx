@@ -1,23 +1,23 @@
-import { Heart, Users, BookOpen, Palette, Music, Star } from "lucide-react"
+import { Heart, Users, BookOpen, Palette, Music, Star, Sun } from "lucide-react"
 
 const features = [
   {
     icon: Heart,
-    title: "Liebevolle Betreuung",
+    title: "Pädagogische Qualität",
     description:
-      "Unsere erfahrenen Erzieher bieten fürsorgliche Betreuung in einer sicheren, unterstützenden Umgebung, in der sich jedes Kind geschätzt und geliebt fühlt.",
+      "Im Fokus steht das Bild vom Kind, Identitätsentwicklung, die Sprachförderung, Inklusion, Elternabend so wie Transition. Darüber hinaus sind die Teamarbeit und die pädagogische Qualität für uns bedeutend.",
   },
   {
     icon: Users,
-    title: "Soziale Entwicklung",
+    title: "Interkulturellen Kindertagesstätte",
     description:
-      "Kinder lernen wichtige soziale Fähigkeiten durch Gruppenaktivitäten, gemeinsames Spiel und angeleitete Interaktionen mit Gleichaltrigen.",
+      "Durch den Betrieb einer interkulturellen Kindertagesstätte möchte die Gesellschafterin ihrem Wunsch nachkommen, Kinder deutscher und nicht deutscher Herkunft spräche und deren Familien im kulturellen Dialog und der Überwindung von Bildungsbarrieren zu unterstützen.",
   },
   {
-    icon: BookOpen,
-    title: "Frühes Lernen",
+    icon: Sun,
+    title: "Qualitäts- und Beschwerdemanagement",
     description:
-      "Altersgerechter Lehrplan mit Fokus auf Lese-, Schreib- und Rechenfähigkeiten sowie kritisches Denken zur Vorbereitung auf zukünftigen schulischen Erfolg.",
+      "Festigung von Qualitäts- und Beschwerdemanagement. Ausgewogene Balance zwischen pädagogischen Gesichtspunkten und erforderlichen Regelungen. Kontinuierliche Weiterentwicklung der MitarbeiterInnen und der Einrichtung.",
   },
   {
     icon: Palette,
@@ -26,16 +26,10 @@ const features = [
       "Kunst, Basteln und kreative Aktivitäten fördern die Fantasie und helfen Kindern, sich auf einzigartige Weise auszudrücken.",
   },
   {
-    icon: Music,
-    title: "Musik & Bewegung",
-    description:
-      "Tägliche Musik- und Bewegungsaktivitäten fördern die körperliche Entwicklung, Rhythmus und Koordination in einer spaßigen Umgebung.",
-  },
-  {
     icon: Star,
-    title: "Individuelle Entwicklung",
+    title: "Verantwortung und Unterstützung",
     description:
-      "Wir feiern die einzigartigen Talente jedes Kindes und unterstützen ihre individuelle Lernreise in ihrem eigenen Tempo.",
+      "Verwaltung der Kita Wasserfee und Gesamtverantwortung für die Einrichtung.Impulse und Orientierung für Mitarbeiter und Familien. Beratung und Unterstützung bei der Einhaltung fachlicher und rechtlicher Standards.",
   },
 ]
 
@@ -46,7 +40,7 @@ export function FeaturesSection() {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
             <img
-              src="/modern-kindergarten-classroom-with-children-learni.png"
+              src="/colorful.jpg"
               alt="Modern kindergarten classroom"
               className="rounded-2xl shadow-xl w-full h-auto"
             />

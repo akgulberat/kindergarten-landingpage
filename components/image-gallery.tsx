@@ -6,24 +6,16 @@ import { Button } from "@/components/ui/button"
 
 const galleryImages = [
   {
+    src: "/happy-diverse-young-school-kids-scaled-1024x652.jpg",
+    alt: "Aktivitäten auf dem Außenspielplatz",
+  },
+  {
     src: "/happy-children-playing-in-colorful-kindergarten-cl.png",
     alt: "Kinder spielen im Klassenzimmer",
   },
   {
-    src: "/kindergarten-outdoor-playground-with-children-havi.png",
-    alt: "Aktivitäten auf dem Außenspielplatz",
-  },
-  {
     src: "/kindergarten-art-and-craft-activities-with-colorfu.png",
     alt: "Kunst- und Bastelzeit",
-  },
-  {
-    src: "/kindergarten-reading-corner-with-books-and-comfort.png",
-    alt: "Leseecke",
-  },
-  {
-    src: "/kindergarten-lunch-time-with-healthy-meals-and-hap.png",
-    alt: "Mittagszeit",
   },
 ]
 
@@ -84,9 +76,8 @@ export function ImageGallery() {
             {galleryImages.map((_, index) => (
               <button
                 key={index}
-                className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentIndex ? "bg-orange-400" : "bg-gray-300"
-                }`}
+                className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? "bg-orange-400" : "bg-gray-300"
+                  }`}
                 onClick={() => setCurrentIndex(index)}
               />
             ))}

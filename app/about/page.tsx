@@ -13,8 +13,7 @@ export default function AboutPage() {
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-2xl font-bold text-black mb-6">Über Kita Wasserfee</h1>
           <p className="text-xl text-black mb-8 max-w-3xl mx-auto">
-            Seit über 15 Jahren fördern wir junge Köpfe und helfen Kindern dabei, zu selbstbewussten, kreativen und
-            fürsorglichen Persönlichkeiten in einer sicheren und liebevollen Umgebung heranzuwachsen.
+            Wir betrachten alle Kinder gleichermaßen als kompetente und eigenständige Entdecker ihrer Welt.
           </p>
         </div>
       </section>
@@ -26,14 +25,13 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-black mb-6">Unsere Mission</h2>
               <p className="text-black text-lg mb-6">
-                Bei der Kita Wasserfee glauben wir, dass jedes Kind einzigartig ist und eine Bildung verdient, die ihre
-                individuellen Stärken feiert und sie gleichzeitig auf zukünftigen Erfolg vorbereitet. Unser
-                spielbasierter Lernansatz kombiniert strukturierte Aktivitäten mit kreativer Erkundung.
+                Angetrieben durch ihre intrinsische Motivation wollen sie jeden Tag Neues erforschen und Neues entdecken.
+                Dabei erschaffen sie sich ihre Welt eigenständig durch ihr eigenes Denken und durch ihr eigenes Tun. Pädagogische Fachkräfte begleiten die Kinder auf ihren individuellen Wegen.
               </p>
               <p className="text-black text-lg">
-                Wir schaffen eine warme, inklusive Umgebung, in der sich Kinder sicher fühlen, sich auszudrücken,
-                Freundschaften zu schließen und die sozialen und emotionalen Fähigkeiten zu entwickeln, die sie zum
-                Gedeihen benötigen.
+                Sie unterstützen die Kinder in ihren Vorhaben, stehen den Kindern als Lernpartner zur Seite, beraten bei besonderen Herausforderungen oder hören einfach nur zu. Pädagogische Fachkräfte sehen und schätzen die Ressourcen, die jedes Kind mitbringt. Sie sind davon überzeugt, dass ausgehend von den individuellen Voraussetzungen jedes Kind in der Lage ist, zu lernen und sich zu bilden.
+
+                Ein besonderer Schwerpunkt der Arbeit in unserer Einrichtung ist die vorurteilsbewusste interkulturelle Erziehung. Diese Form von Erziehung bereitet Kinder gezielt auf eine Gesellschaft, in der verschiedene Kulturen zusammenleben, vor. Sie erleben alltäglich, dass es Menschen mit unterschiedlichen Normen, Werten, Sprachen, Kulturen und Verhaltensweisen gibt.
               </p>
             </div>
             <div className="relative">

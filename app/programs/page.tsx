@@ -49,46 +49,36 @@ export default function ProgramsPage() {
         <div className="absolute inset-0 bg-[url('/kindergarten-children-engaged-in-various-learning.png')] bg-cover bg-center opacity-20"></div>
         <div className="relative max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-2xl font-bold text-black mb-6">Unsere Programme</h1>
-          <p className="text-xl text-black mb-8 max-w-3xl mx-auto">
-            Altersgerechte Programme, die darauf ausgelegt sind, die Entwicklung Ihres Kindes durch spielbasiertes
-            Lernen und strukturierte Aktivitäten zu fördern.
+        </div>
+      </section>
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-black-700 mb-4 text-left">
+            Die sieben Bildungsbereiche des Berliner Bildungsprogramms
+          </h2>
+          <h3 className="text-xl font-semibold text-gray-800 mb-6 text-left">
+            Berliner Bildungsprogramms
+          </h3>
+          <p className="text-gray-700 mb-6 text-left">
+            2004 wurde das Berliner Bildungsprogramm in Berlin eingeführt und 2014 aktualisiert.
+            Seitdem ist es die Grundlage der pädagogischen Arbeit in allen Berliner Kindertagesstätten.
           </p>
+
+          <p className="text-gray-600 font-medium mb-4 text-left">
+            Senatsverwaltung für Bildung, Jugend und Familie
+          </p>
+
+          <ul className="list-disc list-inside text-gray-800 space-y-2 text-left">
+            <li>Die Arbeit mit den jüngsten Kindern</li>
+            <li>Die Entwicklung eines inklusiven Bildungssystems</li>
+            <li>Die alltagsintegrierte sprachliche Bildung für alle – auch die mehrsprachig aufwachsenden Kinder</li>
+            <li>Der Zusammenhang von Bildung und Gesundheit</li>
+            <li>Die Bedeutung von Übergängen in den Biographien der Kinder</li>
+            <li>Die Bildung für nachhaltige Entwicklung</li>
+            <li>Die Verantwortung von Leitung und Trägern für die Qualitätsentwicklung</li>
+          </ul>
         </div>
       </section>
-
-      {/* Programs Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
-            {programs.map((program, index) => (
-              <div key={index} className="bg-blue-50 rounded-lg p-6 shadow-lg">
-                <h3 className="text-2xl font-bold text-black mb-2">{program.title}</h3>
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="flex items-center gap-1 text-kindergarten-pink2">
-                    <Users className="w-4 h-4" />
-                    <span className="text-sm font-medium">{program.age}</span>
-                  </div>
-                  <div className="flex items-center gap-1 text-kindergarten-pink2">
-                    <Clock className="w-4 h-4" />
-                    <span className="text-sm font-medium">{program.time}</span>
-                  </div>
-                </div>
-                <p className="text-black mb-4">{program.description}</p>
-                <ul className="space-y-2 mb-6">
-                  {program.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center gap-2 text-black">
-                      <div className="w-2 h-2 bg-kindergarten-pink2 rounded-full"></div>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button className="w-full bg-kindergarten-green2 text-white">Mehr erfahren</Button>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Activities Section */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-6xl mx-auto px-4">

@@ -18,15 +18,14 @@ export function HeroSection() {
       </div>
 
       <div className="max-w-6xl container mx-auto px-4 relative z-10 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl">
+        <div className="max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-kindergarten-pink2 leading-tight">
-            Wo kleine Träume
-            <span className="block text-black opacity-70">groß werden</span>
+            Jedes Kind in der Lage ist,
+            <span className="block text-black opacity-70">zu lernen und sich zu bilden.</span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 text-kindergarten-green2 leading-relaxed max-w-2xl">
-            Ein liebevoller Ort für Ihr Kind zum Lernen, Spielen und Wachsen. Wir fördern Kreativität, Neugier und
-            soziale Entwicklung in einer sicheren Umgebung.
+            Wir betrachten alle Kinder gleichermaßen als kompetente und eigenständige Entdecker ihrer Welt.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">

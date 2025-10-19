@@ -14,117 +14,47 @@ import {
     Sparkles,
     Baby,
     Globe,
+    Projector,
+    Gamepad
 } from "lucide-react"
 
 export default function ServicesPage() {
     const services = [
         {
-            icon: Heart,
-            title: "Liebevolle Betreuung",
-            shortDesc: "Fürsorgliche Betreuung in sicherer Umgebung",
+            icon: Projector,
+            title: "Projekte",
+            shortDesc: "",
             fullDesc:
-                "Unsere erfahrenen und qualifizierten Erzieher bieten eine warmherzige, fürsorgliche Betreuung in einer sicheren und unterstützenden Umgebung. Jedes Kind wird als Individuum wahrgenommen und erhält die Aufmerksamkeit und Zuwendung, die es für eine gesunde emotionale Entwicklung benötigt. Wir schaffen eine Atmosphäre, in der sich Kinder geborgen fühlen und Vertrauen aufbauen können.",
+                "Projekte Die Wasserfee Lilie bietet regelmäßige Projekte an. Die Projekte bestehen aus wichtigen Themen des Alltags und der Gesellschaft. Diese werden mit unterschiedlichen methodischen Herangehensweisen bearbeitet und abschließend präsentiert. Projektarbeit ist ein wichtiges Instrument, um die Kompetenzen der Kinder zu fördern. So bietet die Arbeit an Sachthemen die Möglichkeit, verschiedene Sachkompetenzen zu entwickeln. Die Ich-Kompetenz der Kinder wird gestärkt, indem sie feststellen, dass ihre eigenen Ideen, ihre Arbeit an der Umsetzung und ihr Durchhaltevermögen letztlich zu einem Ergebnis und somit zum Erfolg geführt haben. Mit der methodischen Vielfalt, die in den Projektarbeiten in besonderer Weise realisierbar sind, können Kinder zahlreiche lernmethodische Kompetenzen entwickeln. Die Projektthemen ergeben sich aus der Lebensrealität der Kinder und deren Fragen. An diesen Themen arbeiten die Kinder aller Gruppen, die Interesse haben. So ist es bei Bedarf möglich, dass Kinder aus verschiedenen Gruppen gemeinsam in einer Arbeitsgruppe arbeiten. Die Arbeit an diesen Projekten erstreckt sich über einen Zeitraum von etwa ein bis zwei Wochen. Sie findet nicht nur in den eigenen Räumen, sondern auch an Lernorten außerhalb der Kita Wasserfee statt, wie zum Beispiel in Museen, in der Bibliothek oder auf einem Kinderbauernhof. Eltern werden über die Projektthemen informiert und sind aufgefordert, ihre Kinder beim Entwickeln von Projektideen und dem Erreichen ihrer Ziele zu unterstützen. So sind Eltern auch eingeladen, die abschließende Präsentation der Ergebnisse zu besuchen.",
             image: "/kindergarten-teacher-reading-story-to-engaged-chil.png",
             color: "bg-pink-50",
         },
         {
             icon: Users,
-            title: "Soziale Entwicklung",
-            shortDesc: "Förderung sozialer Kompetenzen durch Gruppenaktivitäten",
+            title: "Struktur der Kindergruppen",
+            shortDesc: "",
             fullDesc:
-                "In unserer Kita lernen Kinder wichtige soziale Fähigkeiten durch vielfältige Gruppenaktivitäten, gemeinsames Spiel und angeleitete Interaktionen mit Gleichaltrigen. Wir fördern Teamarbeit, Empathie, Konfliktlösung und Kommunikationsfähigkeiten. Durch altersgerechte Projekte und Spiele entwickeln die Kinder ein gesundes Sozialverhalten und lernen, Freundschaften zu pflegen.",
+                "In unserer Kita arbeiten wir in einem Teiloffenem Konzept mit 25 Kinder aus fünf Jahrgängen. Es bestehen zwei Gruppen die Krippe und der Elementarbereich. Die Krippe hat einen geschützten Raum. Sie besteht von den Jüngsten, sowie bei Bedarf aus dem zweitjüngsten Jahrgang. Die Kinder bestimmen ihr Tempo für den Übergang zum Elementarbereich eigenständig. Der daran anliegende Raum fungiert als Funktionsraum für den Elementarbereich. In der Mittagssituation ist das Konzept der Räume von leise nach laut. Im Bewegungsraum wird eine Schlafsituation angeboten. Der Elementarbereich dient für leise Angebote, wie beispielsweise Basteln, Traumreisen oder zum Vorlesen. Der Raum der Krippe dient zum Freispiel, zudem besteht die Möglichkeit zur Nutzung des Gartens",
             image: "/kindergarten-children-learning-together-in-bright-class.png",
             color: "bg-blue-50",
         },
         {
-            icon: BookOpen,
-            title: "Frühkindliche Bildung",
-            shortDesc: "Altersgerechter Lehrplan für optimale Entwicklung",
+            icon: Gamepad,
+            title: "Spiele - Bewegung",
+            shortDesc: "",
             fullDesc:
-                "Unser pädagogisches Konzept basiert auf einem altersgerechten Lehrplan, der spielerisch Lese-, Schreib- und Rechenfähigkeiten vermittelt. Wir fördern kritisches Denken, Problemlösungsfähigkeiten und Neugierde. Durch strukturierte Lerneinheiten und freies Spiel bereiten wir die Kinder optimal auf die Schule vor, ohne den Spaß am Lernen zu verlieren.",
-            image: "/kindergarten-reading-corner-with-books-and-comfort.png",
-            color: "bg-green-50",
-        },
-        {
-            icon: Palette,
-            title: "Kreative Förderung",
-            shortDesc: "Kunst und Kreativität für fantasievolle Entwicklung",
-            fullDesc:
-                "Kreativität ist ein wichtiger Bestandteil unseres Programms. Durch Malen, Basteln, Werken und andere künstlerische Aktivitäten können Kinder ihre Fantasie ausleben und sich auf einzigartige Weise ausdrücken. Wir stellen vielfältige Materialien bereit und ermutigen die Kinder, ihre eigenen Ideen zu entwickeln und umzusetzen. Dies stärkt nicht nur die Feinmotorik, sondern auch das Selbstbewusstsein.",
+                "In unserer Kita wird Kindern viel Zeit zum Spielen eingeräumt. Im Freispiel haben die Kinder die Möglichkeit, sich auszuprobieren, Herausforderungen zu begegnen und neue Erfahrungen zu sammeln. Beim Spielen ergeben sich zudem zahlreiche Gesprächsanlässe und Möglichkeiten zum gegenseitigen Austausch. So wird ganz nebenbei die sprachliche und kommunikative Kompetenz der Kinder gefördert In den Räumen unserer Kita finden sich vielfältige Möglichkeiten zum Spielen. Das freie Spiel der Kinder ist immer und überall möglich. Darüber hinaus gibt es auch ein Angebot an klassischen und aktuellen Brettspielen und Kartenspielen, die den Kindern frei zugänglich zur Verfügung stehen und von ihnen genutzt werden können. Wir legen Wert darauf, dass Kinder zahlreiche und vielfältige Bewegungsangebote erhalten. Denn Bewegung ist unerlässlich für eine gesunde körperliche und geistige Entwicklung der Kinder. Deshalb haben Bewegungsspiele einen besonderen Stellenwert unter den Spielangeboten in der Kita Lilien. Es werden Bewegungsspiele angeboten, die in den Gruppenräumen, im Freien oder im Bewegungsraum gespielt werden können. Sprachkompetenz, Kommunikation und interkultureller Dialog werden in der Kita Wasserfee besonders gefördert. Ein Bestandteil dieses Förderkonzepts sind Rollen- und Theaterspiele. Rollenspiele bieten vielfältige Gelegenheiten zum Austausch und zum gegenseitigen Kennenlernen, fördert die sprachliche, kommunikative und interkulturelle Kompetenz der Kinder. Hierfür ist im Elementarbereich eine Verkleidungsecke mit verschiedenen Kleidungsstücken und einem Spiegel.",
             image: "/kindergarten-art-and-craft-activities-with-colorfu.png",
             color: "bg-purple-50",
         },
         {
-            icon: Music,
-            title: "Musik & Bewegung",
-            shortDesc: "Tägliche Aktivitäten für körperliche Entwicklung",
-            fullDesc:
-                "Musik und Bewegung sind feste Bestandteile unseres Tagesablaufs. Durch Singen, Tanzen, rhythmische Spiele und Bewegungsübungen fördern wir die motorische Entwicklung, Koordination und das Rhythmusgefühl der Kinder. Wir nutzen verschiedene Instrumente und Bewegungsformen, um die Freude an Musik und körperlicher Aktivität zu wecken und die gesunde Entwicklung zu unterstützen.",
-            image: "/kindergarten-outdoor-playground-with-children-havi.png",
-            color: "bg-yellow-50",
-        },
-        {
-            icon: Star,
-            title: "Individuelle Entwicklung",
-            shortDesc: "Jedes Kind wird in seinem eigenen Tempo gefördert",
-            fullDesc:
-                "Wir erkennen und feiern die einzigartigen Talente und Fähigkeiten jedes Kindes. Unser pädagogisches Team beobachtet die individuelle Entwicklung und passt die Förderung entsprechend an. Kinder lernen in ihrem eigenen Tempo und werden dort abgeholt, wo sie stehen. Wir dokumentieren die Entwicklungsschritte und tauschen uns regelmäßig mit den Eltern aus.",
-            image: "/kindergarten-children-engaged-in-various-learning.png",
-            color: "bg-orange-50",
-        },
-        {
             icon: Utensils,
-            title: "Gesunde Ernährung",
-            shortDesc: "Frische, ausgewogene Mahlzeiten täglich",
+            title: "Die Qualität der Essensversorgung",
+            shortDesc: "",
             fullDesc:
-                "Eine ausgewogene Ernährung ist uns sehr wichtig. Wir bieten täglich frisch zubereitete, gesunde Mahlzeiten mit regionalen und saisonalen Zutaten. Unser Speiseplan ist abwechslungsreich und berücksichtigt Allergien und individuelle Ernährungsbedürfnisse. Die Kinder werden spielerisch an gesunde Lebensmittel herangeführt und lernen die Bedeutung einer ausgewogenen Ernährung kennen.",
+                "Auswahl, Qualität und Herkunft der Lebensmittel Mindestens 10 Prozent des jährlichen Lebensmittelbudgets wird für Lebensmittel aus ökologischer Landwirtschaft ausgegeben. Ein höherer Prozentsatz wird angestrebt. Gemüse und Salat werden bevorzugt als saisonale Frischware aus der Region eingekauft. Für warme Gemüsegerichte wird Tiefkühl-Rohware (d.h. ohne Zusätze von Gewürzen, Rahm und Mehl) eingesetzt. Obst wird vor allem als Frischobst angeboten. Saisonale und regionale Angebote werden bevorzugt.  Getränke: Trinkwasser steht allen Kindern jederzeit zur Verfügung. In den Gruppenräumen gibt es einen festen Standort, an dem Getränke und Trinkgefäße sichtbar und für alle Kinder gut erreichbar aufgestellt sind. Angebot in den Gruppenräumen: frisches Leitungswasser, Mineralwasser, Früchtetee, Kräutertee Frühstück: frisches Leitungswasser, Mineralwasser, Früchtetee oder Kräutertee. Mittagessen: frisches Leitungswasser, Mineralwasser Früchtetee, Kräutertee, stark verdünnte Fruchtsäfte Nachmittags: frisches Leitungswasser, Mineralwasser Früchtetee, Kräutertee, stark verdünnte Fruchtsäfte.",
             image: "/kindergarten-lunch-time-with-healthy-meals-and-hap.png",
             color: "bg-green-50",
-        },
-        {
-            icon: Shield,
-            title: "Sicherheit & Geborgenheit",
-            shortDesc: "Höchste Sicherheitsstandards für Ihr Kind",
-            fullDesc:
-                "Die Sicherheit Ihres Kindes hat oberste Priorität. Unsere Räumlichkeiten sind kindgerecht gestaltet und entsprechen allen Sicherheitsstandards. Wir haben klare Sicherheitskonzepte, geschultes Personal und moderne Sicherheitssysteme. Die Kinder werden durchgehend betreut und beaufsichtigt. Gleichzeitig schaffen wir eine geborgene Atmosphäre, in der sich die Kinder frei entfalten können.",
-            image: "/kindergarten-teachers-working-with-children-in-br.png",
-            color: "bg-blue-50",
-        },
-        {
-            icon: Clock,
-            title: "Flexible Betreuungszeiten",
-            shortDesc: "Öffnungszeiten von 7:00 bis 18:00 Uhr",
-            fullDesc:
-                "Wir bieten flexible Betreuungszeiten, die sich an den Bedürfnissen berufstätiger Eltern orientieren. Unsere Kita ist von Montag bis Freitag von 7:00 bis 18:00 Uhr geöffnet. Sie können zwischen verschiedenen Betreuungsmodellen wählen - Halbtags-, Ganztags- oder verlängerte Betreuung. Wir passen uns Ihren individuellen Anforderungen an und bieten auch Früh- und Spätdienst an.",
-            image: "/happy-children-playing-in-colorful-kindergarten-cl.png",
-            color: "bg-yellow-50",
-        },
-        {
-            icon: Globe,
-            title: "Mehrsprachigkeit",
-            shortDesc: "Spielerische Förderung von Sprachkompetenzen",
-            fullDesc:
-                "In unserer multikulturellen Kita fördern wir die sprachliche Entwicklung der Kinder. Neben Deutsch integrieren wir spielerisch weitere Sprachen in den Alltag. Durch Lieder, Geschichten und Spiele in verschiedenen Sprachen entwickeln die Kinder ein natürliches Sprachgefühl. Dies bereitet sie optimal auf eine globalisierte Welt vor und fördert interkulturelle Kompetenzen.",
-            image: "/kindergarten-children-learning-together-in-bright-class.png",
-            color: "bg-pink-50",
-        },
-        {
-            icon: Baby,
-            title: "Eingewöhnung",
-            shortDesc: "Sanfte Eingewöhnung nach dem Berliner Modell",
-            fullDesc:
-                "Der Start in die Kita ist ein wichtiger Schritt für Kind und Eltern. Wir gestalten die Eingewöhnung nach dem bewährten Berliner Modell - individuell, behutsam und im Tempo des Kindes. Ein fester Bezugserzieher begleitet den Prozess und baut eine vertrauensvolle Beziehung auf. Die Eltern sind in der Anfangszeit dabei und können sich schrittweise zurückziehen, wenn das Kind bereit ist.",
-            image: "/kindergarten-teacher-reading-story-to-engaged-chil.png",
-            color: "bg-purple-50",
-        },
-        {
-            icon: Sparkles,
-            title: "Besondere Aktivitäten",
-            shortDesc: "Ausflüge, Feste und besondere Projekte",
-            fullDesc:
-                "Unser Kita-Jahr ist gefüllt mit besonderen Aktivitäten und Highlights. Wir unternehmen regelmäßig Ausflüge in die Natur, besuchen kulturelle Einrichtungen und feiern gemeinsam Feste. Saisonale Projekte wie Herbstwerkstatt, Winterzauber oder Frühlingserwachen bereichern den Alltag. Diese besonderen Erlebnisse schaffen bleibende Erinnerungen und fördern die ganzheitliche Entwicklung der Kinder.",
-            image: "/kindergarten-outdoor-playground-with-children-havi.png",
-            color: "bg-orange-50",
         },
     ]
 
@@ -171,7 +101,6 @@ export default function ServicesPage() {
                                             </div>
                                             <div>
                                                 <h2 className="text-2xl font-bold text-black">{service.title}</h2>
-                                                <p className="text-sm text-gray-600">{service.shortDesc}</p>
                                             </div>
                                         </div>
 
