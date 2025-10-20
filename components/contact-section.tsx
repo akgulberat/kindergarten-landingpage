@@ -31,7 +31,9 @@ export function ContactSection() {
                     <strong>Adresse:</strong> Jahnstr. 27, 12347 Berlin
                   </p>
                   <p className="text-black">
-                    <strong>Öffnungszeiten:</strong> Montag - Freitag, 7:00 - 18:00 Uhr
+                    <strong>Öffnungszeiten:</strong> Montag - Freitag, 7:30 - 16:30 Uhr
+                    Samstag: 8:00 - 12:00 Uhr <br />
+                    Sonntag: Geschlossen
                   </p>
                 </div>
               </div>
