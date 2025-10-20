@@ -34,7 +34,7 @@ export default function ServicesPage() {
             title: "Struktur der Kindergruppen",
             shortDesc: "",
             fullDesc:
-                "In unserer Kita arbeiten wir in einem Teiloffenem Konzept mit 25 Kinder aus fünf Jahrgängen. Es bestehen zwei Gruppen die Krippe und der Elementarbereich. Die Krippe hat einen geschützten Raum. Sie besteht von den Jüngsten, sowie bei Bedarf aus dem zweitjüngsten Jahrgang. Die Kinder bestimmen ihr Tempo für den Übergang zum Elementarbereich eigenständig. Der daran anliegende Raum fungiert als Funktionsraum für den Elementarbereich. In der Mittagssituation ist das Konzept der Räume von leise nach laut. Im Bewegungsraum wird eine Schlafsituation angeboten. Der Elementarbereich dient für leise Angebote, wie beispielsweise Basteln, Traumreisen oder zum Vorlesen. Der Raum der Krippe dient zum Freispiel, zudem besteht die Möglichkeit zur Nutzung des Gartens",
+                "In unserer Kita arbeiten wir in einem Teiloffenem Konzept mit 25 Kinder aus fünf Jahrgängen. Es bestehen zwei Gruppen die Krippe und der Elementarbereich. Die Krippe hat einen geschützten Raum. Sie besteht von den Jüngsten, sowie bei Bedarf aus dem zweitjüngsten Jahrgang. Die Kinder bestimmen ihr Tempo für den Übergang zum Elementarbereich eigenständig. Der daran anliegende Raum fungiert als Funktionsraum für den Elementarbereich. In der Mittagssituation ist das Konzept der Räume von leise nach laut. Im Bewegungsraum wird eine Schlafsituation angeboten. Der Elementarbereich dient für leise Angebote, wie beispielsweise Basteln, Traumreisen oder zum Vorlesen. Der Raum der Krippe dient zum Freispiel.",
             image: "/kindergarten-children-learning-together-in-bright-class.png",
             color: "bg-blue-50",
         },

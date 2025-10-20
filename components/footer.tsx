@@ -55,7 +55,9 @@ export function Footer() {
               <p>📍 Jahnstr. 27, 12347 Berlin</p>
               <p>📞 0172 5816772</p>
               <p>✉️ kitawasserfee@gmail.com</p>
-              <p>🕒 Mo-Fr: 7:00 - 18:00 Uhr</p>
+              <p>🕒 Mo-Fr: 7:30 - 16:30 Uhr</p>
+              <p>🕒 Samstag: 8:00 - 12:00 Uhr </p>
+              <p>🕒 Sonntag: Geschlossen</p>
             </div>
           </div>
 
