@@ -238,9 +238,7 @@ export default function ContactPage() {
                       <p className="text-black">
                         Montag - Freitag: 7:30 - 16:30 Uhr
                         <br />
-                        Samstag: 8:00 - 12:00 Uhr
-                        <br />
-                        Sonntag: Geschlossen
+                        Samstag-Sonntag: Geschlossen
                       </p>
                     </div>
                   </div>

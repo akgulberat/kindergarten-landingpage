@@ -32,8 +32,7 @@ export function ContactSection() {
                   </p>
                   <p className="text-black">
                     <strong>Öffnungszeiten:</strong> Montag - Freitag, 7:30 - 16:30 Uhr
-                    Samstag: 8:00 - 12:00 Uhr <br />
-                    Sonntag: Geschlossen
+                    Samstag-Sonntag: Geschlossen <br />
                   </p>
                 </div>
               </div>
