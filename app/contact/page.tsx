@@ -246,12 +246,6 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <div className="py-12">
-            <h2 className="text-2xl font-bold text-black mb-8">Kita-Grundriss</h2>
-            <div className="py-12">
-              <img src="https://i.ibb.co/Hf5DGyJT/kroki.png" />
-            </div>
-          </div>
         </div>
       </section>
       <Footer />
