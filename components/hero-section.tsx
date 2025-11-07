@@ -52,19 +52,19 @@ export function HeroSection() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl">
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
-              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">1-6</div>
+              <div className="text-2xl font-bold text-kindergarten-pink2 mb-1">1-6</div>
               <div className="text-sm text-gray-600">Jahre Alt</div>
             </div>
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
-              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">8-12</div>
+              <div className="text-2xl font-bold text-kindergarten-pink2 mb-1">8-12</div>
               <div className="text-sm text-gray-600">Kinder pro Gruppe</div>
             </div>
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
-              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">07:30-16:30</div>
+              <div className="text-2xl font-bold text-kindergarten-pink2 mb-1">07:30-16:30</div>
               <div className="text-sm text-gray-600">Uhr Geöffnet</div>
             </div>
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
-              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">100%</div>
+              <div className="text-2xl font-bold text-kindergarten-pink2 mb-1">100%</div>
               <div className="text-sm text-gray-600">Qualifizierte Erzieher</div>
             </div>
           </div>
