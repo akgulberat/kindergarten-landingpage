@@ -20,7 +20,7 @@ export function HeroSection() {
       <div className="max-w-6xl container mx-auto px-4 relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-kindergarten-pink2 leading-tight">
-            Jedes Kind in der Lage ist,
+            Jedes Kind ist in der Lage,
             <span className="block text-black opacity-70">zu lernen und sich zu bilden.</span>
           </h1>
 
@@ -60,7 +60,7 @@ export function HeroSection() {
               <div className="text-sm text-gray-600">Kinder pro Gruppe</div>
             </div>
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
-              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">7-18</div>
+              <div className="text-3xl font-bold text-kindergarten-pink2 mb-1">07:30-16:30</div>
               <div className="text-sm text-gray-600">Uhr Geöffnet</div>
             </div>
             <div className="text-center p-4 bg-white/60 backdrop-blur-sm rounded-2xl border border-gray-200">
