@@ -29,9 +29,9 @@ export default function AboutPage() {
                 Dabei erschaffen sie sich ihre Welt eigenständig durch ihr eigenes Denken und durch ihr eigenes Tun. Pädagogische Fachkräfte begleiten die Kinder auf ihren individuellen Wegen.
               </p>
               <p className="text-black text-lg">
-                Sie unterstützen die Kinder in ihren Vorhaben, stehen den Kindern als Lernpartner zur Seite, beraten bei besonderen Herausforderungen oder hören einfach nur zu. Pädagogische Fachkräfte sehen und schätzen die Ressourcen, die jedes Kind mitbringt. Sie sind davon überzeugt, dass ausgehend von den individuellen Voraussetzungen jedes Kind in der Lage ist, zu lernen und sich zu bilden.
-
-                Ein besonderer Schwerpunkt der Arbeit in unserer Einrichtung ist die vorurteilsbewusste interkulturelle Erziehung. Diese Form von Erziehung bereitet Kinder gezielt auf eine Gesellschaft, in der verschiedene Kulturen zusammenleben, vor. Sie erleben alltäglich, dass es Menschen mit unterschiedlichen Normen, Werten, Sprachen, Kulturen und Verhaltensweisen gibt.
+                Sie unterstützen die Kinder in ihren Vorhaben, stehen den Kindern als Lernpartner zur Seite, beraten bei besonderen Herausforderungen oder hören einfach nur zu.
+                Pädagogische Fachkräfte sehen und schätzen die Ressourcen, die jedes Kind mitbringt.
+                Ein besonderer Schwerpunkt der Arbeit in unserer Einrichtung ist die vorurteilsbewusste interkulturelle Erziehung.
               </p>
             </div>
             <div className="relative">
@@ -44,6 +44,28 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* ---- VIDEO SECTION ---- */}
+      <section className="py-16 bg-blue-100">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-black mb-10">Einblicke in Unsere Kita</h2>
+
+          {/* Responsive Vimeo Embed */}
+          <div className="relative" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              src="https://player.vimeo.com/video/1138028527?badge=0&autopause=0&player_id=0&app_id=58479"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              className="absolute top-0 left-0 w-full h-full rounded-xl shadow-lg"
+              title="Kita Video"
+            ></iframe>
+          </div>
+
+          {/* Vimeo script - optional (player API) */}
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+      </section>
+      {/* ---- END VIDEO SECTION ---- */}
 
       {/* Values Section */}
       <section className="py-16 bg-blue-50">
