@@ -6,7 +6,7 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 export default function DailyRoutinePage() {
     const schedule = [
         {
-            time: "8:00 - 9:00",
+            time: "7:30 - 8:30",
             title: "Flexible Ankunft",
             description:
                 "Die Kinder werden herzlich begrüßt und können in Ruhe ankommen. Freies Spielen ermöglicht soziale Kontakte und stärkt die Kreativität.",
@@ -14,7 +14,7 @@ export default function DailyRoutinePage() {
             color: "bg-kindergarten-pink",
         },
         {
-            time: "9:15",
+            time: "8:30 - 9:00",
             title: "Frühstück",
             description:
                 "Wir starten gemeinsam mit einem gesunden Frühstück in den Tag. Die Kinder lernen Tischmanieren und genießen das Miteinander.",
@@ -22,7 +22,7 @@ export default function DailyRoutinePage() {
             color: "bg-blue-100",
         },
         {
-            time: "9:45 - 10:00",
+            time: "9:00 - 9:15",
             title: "Morgenkreis",
             description:
                 "Im Morgenkreis singen wir Lieder, sprechen über den Tag und teilen Erlebnisse. So entsteht Gemeinschaft und Vertrauen.",
@@ -30,7 +30,7 @@ export default function DailyRoutinePage() {
             color: "bg-kindergarten-pink",
         },
         {
-            time: "10:00 - 11:30",
+            time: "9:15 - 10:45",
             title: "Päd. Angebote / Freispiel",
             description:
                 "Kreative Bastel- und Malangebote, Musik, Bewegung oder Rollenspiele fördern die ganzheitliche Entwicklung der Kinder.",
@@ -38,7 +38,7 @@ export default function DailyRoutinePage() {
             color: "bg-blue-100",
         },
         {
-            time: "11:30 - 12:00",
+            time: "10:45 - 11:15",
             title: "Außenzeit / Garten",
             description:
                 "Frische Luft und Bewegung sind wichtig! Im Garten oder auf dem Spielplatz können die Kinder toben, entdecken und Natur erleben.",
@@ -46,7 +46,7 @@ export default function DailyRoutinePage() {
             color: "bg-kindergarten-pink",
         },
         {
-            time: "12:00 - 12:45",
+            time: "11:15 - 12:00",
             title: "Mittagessen",
             description:
                 "Ein warmes, ausgewogenes Mittagessen wird gemeinsam eingenommen. Wir achten auf gesunde Ernährung und berücksichtigen Allergien.",
@@ -54,7 +54,7 @@ export default function DailyRoutinePage() {
             color: "bg-blue-100",
         },
         {
-            time: "12:45 - 13:30",
+            time: "12:00 - 12:45",
             title: "Mittagsruhe",
             description:
                 "Nach dem Essen gönnen sich die Kinder eine Ruhepause. Einige schlafen, andere entspannen bei ruhiger Musik oder einer Geschichte.",
@@ -62,7 +62,7 @@ export default function DailyRoutinePage() {
             color: "bg-kindergarten-pink",
         },
         {
-            time: "13:30 - 15:00",
+            time: "12:45 - 13:30",
             title: "Vesper / Freispiel",
             description:
                 "Ein kleiner Nachmittagssnack gibt neue Energie. Danach bleibt Zeit für freies Spielen, Vorlesen oder kreative Beschäftigungen.",
@@ -70,7 +70,7 @@ export default function DailyRoutinePage() {
             color: "bg-blue-100",
         },
         {
-            time: "14:00 - 16:45",
+            time: "13:30 - 16:30",
             title: "Flexible Abholung",
             description:
                 "Die Kinder werden individuell abgeholt. Beim Spielen, Malen oder Lesen klingt der Tag in entspannter Atmosphäre aus.",
